@@ -23,7 +23,6 @@ const projects = [
     link: "https://we-chat-pink.vercel.app/",
   },
   {
-  {
     id: "03", name: "Rabbithole Explorer", color: "#a855f7",
     status: "Live / Public",
     tagColor: "text-purple-400 border-purple-400/25",
