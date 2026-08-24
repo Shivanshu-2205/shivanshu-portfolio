@@ -6,7 +6,7 @@ import SectionLabel from "./SectionLabel";
 const projects = [
   {
     id: "01", name: "NoteWeave AI", color: "#4f8ef7",
-    status: "In Private Development",
+    status: "Live / Public",
     tagColor: "text-accent border-accent/25",
     description: "AI-powered knowledge management workspace designed to help students turn scattered study material into structured, actionable knowledge. Uses asynchronous LLM processing, intelligent note organization, and spaced repetition to improve learning and retention.",
     stack: ["Next.js","Node.js","PostgreSQL","Redis","LLM","BullMQ","SM-2"],
