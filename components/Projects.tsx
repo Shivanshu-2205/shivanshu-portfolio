@@ -5,13 +5,13 @@ import SectionLabel from "./SectionLabel";
 
 const projects = [
   {
-    id: "01", name: "Open Up", color: "#4f8ef7",
+    id: "01", name: "NoteWeave AI", color: "#4f8ef7",
     status: "In Private Development",
     tagColor: "text-accent border-accent/25",
-    description: "Reinforcement learning–powered campus recommendation engine. Dynamic reward weighting, multi-armed bandit exploration, and a continuous optimization loop that improves with every user signal.",
-    stack: ["Reinforcement Learning","Python","FastAPI","React","PostgreSQL"],
-    highlight: "Dynamic weighting · Feedback loop · RL optimization",
-    link: null,
+    description: "AI-powered knowledge management workspace designed to help students turn scattered study material into structured, actionable knowledge. Uses asynchronous LLM processing, intelligent note organization, and spaced repetition to improve learning and retention.",
+    stack: ["Next.js","Node.js","PostgreSQL","Redis","LLM","BullMQ","SM-2"],
+    highlight: "AI knowledge management · Async processing · Spaced repetition",
+    link: "https://note-weave-ai-seven.vercel.app",
   },
   {
     id: "02", name: "We Chat", color: "#22d3ee",
@@ -32,7 +32,6 @@ const projects = [
     link: "https://rabbit-hole-explorer-rho.vercel.app/",
   },
 ];
-
 export default function Projects() {
   const { ref, inView } = useReveal();
   return (
